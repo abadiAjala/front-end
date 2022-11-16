@@ -1,0 +1,70 @@
+header{
+    background-color: #FFFFFF;
+    height: 100px;
+}
+.headerbox{
+    top: 15px;
+    position: relative;
+    width: 940px; 
+    margin: 0px auto;
+}
+#bee{
+    width: 100px;
+    height: 60px;
+}
+nav ul{
+    position: absolute;
+    top: 30%;
+    right: 0px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 0px 0px 15px;
+    text-transform: uppercase;
+    color: darkorange;
+    font-size: 20px;
+}
+
+nav ul a li:hover{
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+main{
+    background-color: beige;
+    height: auto;
+    width: auto;
+}
+
+main ul{
+    padding: 5%;
+    margin-left: 30px;
+}
+
+main li{
+    color: black;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0px 0px 0px 2%;
+    padding: 20px;
+}
+
+main li h3{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+    height: 110px;
+}
+.footerbox{
+    padding: 50px;
+    color: white;
+}
